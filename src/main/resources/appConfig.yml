@@ -1,0 +1,16 @@
+exchangePollerThreadPoolSize: 10
+
+bitso:
+  endpoint: https://api.bitso.com
+  maxTradesToFetch: 100000
+  tradesPollingDelayMs: 1000
+  books:
+    - btc_mxn
+
+trading:
+  numUpTicksToPlaceSellOrder: 2
+  numDownTicksToPlaceBuyOrder: 2
+
+ui:
+  maxTradesToDisplay: 50
+  maxSignalsToDisplay: 25
